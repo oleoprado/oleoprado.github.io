@@ -6,33 +6,54 @@ body {
     line-height: 1.7em;
 }
 
-#topo {
+.menu a {
     text-transform: uppercase;
-    color: #FF70A6;
-
+    font-family: 'Bangers', 'cursive';
+    font-size: 1.2em;
+    letter-spacing: 0.8px;
+    color: #FFD670;
+    background-color: #FF70A6;
+    padding: 0.2em 0.5em;
+    line-height: 1.7em;
+    text-shadow: 2px 2px #000;
 }
 
-.listas {
+.listas a, .listas li {
     list-style: none;
     text-decoration: none;
+    
 }
 
 .name-title {
     font-family: 'Bangers', 'cursive';
-    font-size: 3em;
+    font-size: 4.5em;
+    text-align: center;
+    text-shadow: 4px 4px #585d66;
     color: #E9FF70;
+}
+
+#foto {
+    border-radius: 50%;
+    text-align: center;
+    padding: 5% 35%;
+    width: 30%;
+}
+#prazer {
+    text-align: center;
 }
 
 .descricao-perfil em,
 .descricao-perfil strong {
     color: #FF9770;
+    
 }
 
 .titles {
     font-family: 'Bangers', 'cursive';
-    font-size: 1.5em;
+    font-size: 2em;
     color: #FF70A6;
     letter-spacing: 0.5px;
+    
 }
 
 .habilidade {
@@ -40,6 +61,7 @@ body {
     color: #FF9770;
     text-transform: uppercase;
 }
+
 
 .btn-topo {
     background-color: rgba(233, 255, 112, 0.7);
