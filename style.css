@@ -30,6 +30,8 @@ body {
     text-align: center;
     text-shadow: 4px 4px #585d66;
     color: #E9FF70;
+    background-color:#FF70A6;
+    padding: 0.1em;
 }
 
 #foto {
@@ -40,6 +42,7 @@ body {
 }
 #prazer {
     text-align: center;
+   
 }
 
 .descricao-perfil em,
